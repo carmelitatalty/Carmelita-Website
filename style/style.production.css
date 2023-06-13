@@ -1,0 +1,208 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+div {
+    margin: 2em;
+    padding: 10pt;
+    border: 10pt;
+    border-color: azure;
+    font-family: 'Courgette', cursive;
+}
+
+.grid {
+    display: -ms-grid;
+    display: grid;
+    -webkit-column-gap: 25px;
+       -moz-column-gap: 25px;
+            column-gap: 25px;
+    row-gap: 25px;
+    display: -ms-inline-grid;
+    display: inline-grid;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    grid-gap: 10px;
+    -ms-grid-columns: 1fr 10px 1fr 10px 1fr 10px 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.grid_item {
+    background-color: lightgray;
+    display: inline-block;
+    grid-column: auto/auto;
+    grid-row: auto/auto;
+
+}
+
+
+@media all and (max-width: 500px) {
+    .grid {
+        
+        -ms-grid-columns: 1fr;
+        
+        grid-template-columns: 1fr;
+        -ms-grid-rows: 100px 10px 100px;
+        grid-template-rows: 100px 100px;
+        
+    }
+    .grid > *:nth-child(1) {
+        -ms-grid-row: 1;
+        -ms-grid-column: 1;
+        
+    }
+    .grid > *:nth-child(2) {
+        -ms-grid-row: 3;
+        -ms-grid-column: 1;
+        
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+}
+
+@media all and (min-width: 500px) and (max-width: 750px) {
+    .grid {
+        -ms-grid-columns: 1fr 10px 1fr;
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+}
+
+* {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+#content {
+    text-align: center;
+    color: #6495ed;
+    max-width: 80%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    line-height: 150%;
+    padding: 2em;
+    margin: 2em;
+    border: 2em;
+    display: inline-block;
+    position: relative;
+    top: 5em;
+    left: 25em;
+}
+
+#footer {
+    display: block;
+    text-align: center;
+}
+
+#picofme {
+    max-width: 50%;
+    max-height: 120px;
+    float: left;
+    border-radius: 50%;
+}
+
+#navigation {
+    float: right;
+    line-height: 150%;
+}
+
+#header {
+    float: left;
+    line-height: 15%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+
+}
+
+#top_bar {
+    font-size: 12px;
+    height: 100px;
+    vertical-align: bottom;
+
+}
+
+a {
+    color: #9932cc;
+}
+
+a:visited {
+
+    color: #9cdefd
+}
+
+a:focus {
+
+    color: #9cdefd
+}
+
+a:hover {
+
+    text-decoration: none;
+    color: rgb(17, 5, 88)
+}
+
+a:focus {
+
+    text-decoration: none;
+    color: rgb(17, 5, 88)
+}
+
+
+
+a:active {
+
+    color: #696969;
+}
+
+
+
+a:focus {
+
+    color: #696969;
+}
+
+.button_primary {
+    background-color: rgb(202, 147, 235);
+    border: none;
+    display: inline-block;
+    font-family: inherit;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 2px;
+    border-bottom: 3px solid rgba(71, 36, 100, 0.3);
+    -webkit-transition-duration: 0.5s;
+         -o-transition-duration: 0.5s;
+            transition-duration: 0.5s;
+    -webkit-transition-property: opacity;
+    -o-transition-property: opacity;
+    transition-property: opacity;
+
+}
+
+button:hover,
+button:focus {
+
+    cursor: pointer;
+    opacity: 0.5;
+
+
+}
+
+body {
+    background-color: antiquewhite;
+}

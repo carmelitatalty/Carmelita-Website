@@ -1,0 +1,17 @@
+@keyframes color-change {
+    from {
+        fill:rgb(129, 158, 219)
+
+    }
+    to {
+        fill:rgb(75, 25, 100)
+    }
+}
+.flowers {
+    animation-duration: 5s;
+    animation-name: color-change;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-timing-function: linear;
+    
+}
