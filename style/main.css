@@ -158,7 +158,8 @@ a:focus {
 }
 
 button:hover,
-button:focus {
+button:focus, .button_primary,
+.button_primary {
 
     cursor: pointer;
     opacity: 0.5;
