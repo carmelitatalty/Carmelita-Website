@@ -33,13 +33,29 @@ div {
 }
 
 .grid_item {
-    background-color: lightgray;
+    background-color: lightblue;
+    color: navy;
     display: inline-block;
     grid-column: auto/auto;
     grid-row: auto/auto;
 
 }
 
+.grid_item a:visited {
+
+    color: violet;
+}
+
+.grid_item a:focus {
+
+    color: purple;
+}
+
+.grid_item a:hover {
+
+    text-decoration: none;
+    color: orchid;
+}
 
 @media all and (max-width: 500px) {
     .grid {
@@ -206,5 +222,6 @@ button:focus {
 }
 
 body {
-    background-color: antiquewhite;
+    background-color: navy;
+    color: lightblue;
 }
