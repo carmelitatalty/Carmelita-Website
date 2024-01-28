@@ -1,84 +1,177 @@
 <!DOCTYPE html>
 <html lang="en">
-<head> 
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>
-        Carmelita Talty
-    </title>
-    <link rel="stylesheet" href="./projects.css">
-    <link rel="stylesheet" href="../style/style.production.css" >
-</head>
-    <body>
+    <title>Carmelita Talty</title>
+    <link rel="stylesheet" href="./projects.css" />
+    <link rel="stylesheet" href="../style/style.production.css" />
+  </head>
+  <body>
     <div id="top_bar">
-        <header>
-            <div id="header">
+      <header>
+        <div id="header">
+          <h1>Carmelita Talty</h1>
+        </div>
 
-                <h1>Carmelita Talty</h1>
+        <div id="navigation">
+          <nav>
+            <ul role="menubar" class="top_menu">
+              <li role="presentation" class="top_menu_item">
+                <a href="../index.html" role="menuitem">Home</a>
+              </li>
 
-            </div>
+              <li role="presentation" class="top_menu_item">
+                <a href="../pages/about/about.html" role="menuitem">About</a>
+              </li>
 
-            <div id="navigation">
-                <nav>
-                    <ul role="menubar">
-                        <li role="presentation">
-                            <a href="../index.html" role="menuitem">Home</a>
-                        </li>
-
-                        <li role="presentation">
-                            <a href="../pages/about/about.html" role="menuitem">About</a>
-                        </li>
-
-                        <li role="presentation">
-                            <a href="../pages/contact/contact.html" role="menuitem">Contact</a>
-                        </li>
-                        <li role="presentation">
-                            <a href="../projects/projects.html" role="menuitem">Portfolio</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
+              <li role="presentation" class="top_menu_item">
+                <a href="../pages/contact/contact.html" role="menuitem"
+                  >Contact</a
+                >
+              </li>
+              <li role="presentation" class="top_menu_item">
+                <a href="../projects/projects.html" role="menuitem"
+                  >Portfolio</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
     </div>
-  
 
     <div class="grid">
-    <div class="grid_item">
-        <h1>Meet</h1>
-        <img src="../images/MeetScreenshot.png" width="350", height="200"/>
-        <div classname="project_description">A simple app to display events from multiple cities.  It demonstrates 
-            filtering, testing, charting, and responsive design.
+      <div class="grid_item">
+        <h1>Pokedex</h1>
+        <img src="../images/Pokedex.png" width="350" , height="200" />
+        <div classname="project_description">
+          Website to view information about Pokemon.
         </div>
         <h3>Technologies</h3>
         <ul>
-            <li>React</li>
-            <li>Jest</li>
-            <li>JestCucumber</li>
-            <li>Atatus</li>
-            <li>Recharts</li>
-            <li>Puppeteer</li>
+          <li>HTML</li>
+          <li>Javascript</li>
+          <li>JQuery</li>
+          <li>CSS</li>
+        </ul>
+        <a href="https://carmelitatalty.github.io/pokedexprimary/pokedex/"
+          >Pokedex</a
+        >
+        <a href="https://github.com/carmelitatalty/pokedexprimary">Github</a>
+      </div>
+      <div class="grid_item">
+        <h1>myFlix Backend</h1>
+        <img src="../images/movieAPI.png" width="350" , height="200" />
+        <div classname="project_description">
+          This project is to be an API for users to see a list of movies and
+          mark movies as favorites.
+        </div>
+        <h3>Technologies</h3>
+        <ul>
+          <li>Javascript</li>
+          <li>Express</li>
+          <li>Mongoose</li>
+          <li>bCrypt</li>
+        </ul>
+        <a href="https://vast-coast-62638-64c47efe4f99.herokuapp.com/"
+          >myFlix Backend</a
+        >
+        <a href="https://github.com/carmelitatalty/movie_api">Github</a>
+      </div>
+      <div class="grid_item">
+        <h1>myFlix React Frontend</h1>
+        <img src="../images/myFlixReact.png" width="350" , height="200" />
+        <div classname="project_description">
+          This is the web frontend for the myFlix project. It is built using
+          React, Redux, and Bootstrap.
+        </div>
+        <h3>Technologies</h3>
+        <ul>
+          <li>Javascript</li>
+          <li>React</li>
+          <li>Redux</li>
+          <li>Bootstrap</li>
+        </ul>
+        <a href="https://carmelita-myflix.netlify.app/"
+          >myFlix React Frontend</a
+        >
+        <a href="https://github.com/carmelitatalty/myFlix-client">Github</a>
+      </div>
+      <div class="grid_item">
+        <h1>myFlix Angular Frontend</h1>
+        <img src="../images/myFlixAngular.png" width="350" , height="200" />
+        <div classname="project_description">
+          This project is to be a Angular UI for the myFlix API. It allows users
+          to signup, login, view movies, edit profile, and manage favorites.
+        </div>
+        <h3>Technologies</h3>
+        <ul>
+          <li>Javascript</li>
+          <li>Angular</li>
+          <li>Typescript</li>
+          <li>CSS</li>
+          <li>TypeDoc</li>
+        </ul>
+        <a href="https://carmelitatalty.github.io/myFlix-Angular-client"
+          >myFlix Angular</a
+        >
+        <a href="https://github.com/carmelitatalty/myFlix-Angular-client"
+          >Github</a
+        >
+      </div>
+      <div class="grid_item">
+        <h1>Meet</h1>
+        <img src="../images/MeetScreenshot.png" width="350" , height="200" />
+        <div classname="project_description">
+          A simple app to display events from multiple cities. It demonstrates
+          filtering, testing, charting, and responsive design.
+        </div>
+        <h3>Technologies</h3>
+        <ul>
+          <li>React</li>
+          <li>Jest</li>
+          <li>JestCucumber</li>
+          <li>Atatus</li>
+          <li>Recharts</li>
+          <li>Puppeteer</li>
         </ul>
         <a href="https://carmelitatalty.github.io/meet/">Meet</a>
         <a href="https://github.com/carmelitatalty/meet">Github</a>
+      </div>
+      <div class="grid_item">
+        <h1>Chat App</h1>
+        <img src="../images/chatApp.png" width="350" , height="200" />
+        <div classname="project_description">
+          This is a simple React Native Chat app.
+        </div>
+        <h3>Technologies</h3>
+        <ul>
+          <li>React Native</li>
+          <li>Expo</li>
+          <li>Android</li>
+        </ul>
+        <a href="https://github.com/carmelitatalty/chat-app">Github</a>
+      </div>
     </div>
-    <div class="grid_item">2</div>
-    <div class="grid_item">3</div>
-    <div class="grid_item">4</div>
-    <div class="grid_item">5</div>
-    <div class="grid_item">6</div>
-    
-</div>
-    
 
-<div id="footer">
-    <footer>
-
-        Find me on<br>
+    <div id="footer">
+      <footer>
+        Find me on<br />
         <a href="https://www.linkedin.com/in/carmelita-talty/">
-            <img src="../images/linkedin/icons8-linkedin.svg" alt="linkedin"></a>
-    </footer>
-</div>
-</body>
+          <img src="../images/linkedin/icons8-linkedin.svg" alt="linkedin"
+        /></a>
+        <a href="https://twitter.com/CarmelitaTalty">
+          <img src="../images/large-x-logo.png.twimg.1920.png" alt="X"
+          style="margin: 5px; width: 38px; height: 38px;"
+        /></a>
+        <a href="https://medium.com/@carmelitawarby">
+          <img src="../images/medium.webp" alt="linkedin"
+          style="margin: 5px; width: 38px; height: 38px;"
+        /></a>
+      </footer>
+    </div>
+  </body>
 </html>
